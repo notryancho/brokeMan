@@ -4,6 +4,26 @@ body {
 
 h1 {
     font-family: 'Alfa Slab One';
-    font-size: 200px;
+    font-size: 100px;
     text-align: center;
 }
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #man {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+  }
+  
+  #word {
+    margin: 20px 0;
+  }
+  
+  #balance {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
