@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-family: 'Alfa Slab One';
+    font-size: 200px;
+    text-align: center;
+}
+#game {
+    text-align: center;
+  }
+  
+  #word {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  #incorrect {
+    color: red;
+  }
+  
+/* #word {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  #alphabet {
+    text-align: center;
+  }
+  
+  .letter {
+    display: inline-block;
+    padding: 8px;
+    margin: 4px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .letter:hover {
+    background-color: #ddd;
+  }
+  
+  .correct {
+    background-color: green;
+  }
+  
+  .incorrect {
+    background-color: red;
+  } */
