@@ -1,4 +1,5 @@
-const word = "javascript";
+const wordList = ["BANKRUPT", "MILLIONAIRE", "HOMELESS"];
+const word = wordList[Math.floor(Math.random() * wordList.length)];
 const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const alphabetArray = alphabet.split("");
 const wordArray = word.split("");
