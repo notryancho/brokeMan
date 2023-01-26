@@ -15,10 +15,17 @@ h1 {
   #word {
     margin: 20px 0;
   }
-  
-  #balance {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* #balance {
     margin-bottom: 20px;
     font-size: 20px;
+  } */
+  #alphabet {
+    font-size: 60px;
   }
 img {
     vertical-align: middle;
