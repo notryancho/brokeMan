@@ -8,6 +8,8 @@ const correctLettersDiv = document.getElementById("correctLetters");
 const message = document.getElementById("message");
 const replayBtn = document.createElement("button");
 
+let image = document.querySelector("img"); 
+
 let bankBalance = 70;
 const balance = document.getElementById("balance");
 document.getElementById("balance").style.fontSize = "20px";
@@ -31,7 +33,8 @@ alphabetArray.forEach(function(letter) {
         balance.innerHTML = "Bank Balance: $" + bankBalance;
         if(bankBalance <= 0){
             message.innerHTML = "Game Over";
-            balance.classList.add("red-balance");
+            document.getElementById("balance").style.color = "red";
+            image.src = "/Users/ryancho/ga_seir/projects/brokeMan/images/images 3/broke.png";
             for (let i = 0; i < alphabetDiv.childNodes.length; i++) {
                 alphabetDiv.childNodes[i].setAttribute("disabled", "true");
             }
