@@ -10,6 +10,8 @@ const replayBtn = document.createElement("button");
 
 let bankBalance = 70;
 const balance = document.getElementById("balance");
+document.getElementById("balance").style.fontSize = "20px";
+document.getElementById("balance").style.color = "green";
 balance.innerHTML = "Bank Balance: $" + bankBalance;
 
 for(let i=0; i < word.length; i++){
@@ -29,9 +31,11 @@ alphabetArray.forEach(function(letter) {
         balance.innerHTML = "Bank Balance: $" + bankBalance;
         if(bankBalance <= 0){
             message.innerHTML = "Game Over";
+            balance.classList.add("red-balance");
             for (let i = 0; i < alphabetDiv.childNodes.length; i++) {
                 alphabetDiv.childNodes[i].setAttribute("disabled", "true");
             }
+
             replayBtn.innerHTML = "Replay";
         document.getElementById("game").appendChild(replayBtn);
         replayBtn.addEventListener("click", function() {

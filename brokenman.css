@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -42,4 +42,7 @@ img {
     height: 50px;
     padding:10px;
     font-size:20px;
+}
+.red-balance {
+  color: red;
 }
