@@ -30,11 +30,11 @@ Hangman game except the man loses money.
 
 ### **_Getting Started_**
 
-##### Once the game is complete you'll be able to access and play it [here]().
+##### Once the game is complete you'll be able to access and play it [here](https://brokeman-game.surge.sh/index.html).
 
 ##### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/b/SO3WyCs3/brokeman).
 
-##### The project itself was deployed and can be viewed [here]().
+##### The project itself was deployed and can be viewed [here](https://github.com/notryancho/brokeMan#brokeman).
 
 ---
 
