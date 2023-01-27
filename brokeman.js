@@ -72,23 +72,7 @@ alphabetArray.forEach(function(letter) {
     });
   });
   
-// replayBtn.addEventListener("click",function() {
-//     correctLettersDiv.innerHTML = "";
-//     for (let i = 0; i < alphabetDiv.childNodes.length; i++) {
-//         alphabetDiv.childNodes[i].removeAttribute("disabled");
-//     }
-//     word = wordList[Math.floor(Math.random() * wordList.length)];
-//     wordArray = word.split("");
-//     for(let i = 0; i < word.length; i++){
-//         let correctLetterSpan = document.createElement("span");
-//         correctLetterSpan.innerHTML = "_";
-//         correctLettersDiv.appendChild(correctLetterSpan);
-//     }
-//     bankBalance = 70;
-//     balance.innerHTML = "Bank Balance:$" + bankBalance;
-//     message.innerHTML = "";
-//     replayBtn.style.display = "none";
-// });
+
   
 
   
