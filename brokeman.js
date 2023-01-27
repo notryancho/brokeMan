@@ -19,6 +19,7 @@ balance.innerHTML = "Bank Balance: $" + bankBalance;
 for(let i=0; i < word.length; i++){
     let correctLetterSpan = document.createElement("span");
     correctLetterSpan.innerHTML = "_";
+    correctLetterSpan.classList.add("letter-span");
     correctLettersDiv.appendChild(correctLetterSpan);
 }
 
